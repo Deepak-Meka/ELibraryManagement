@@ -161,7 +161,7 @@
 
                                   <div class="form-group"> 
                                 <div class="form-group">
-                                <input id="button2" class="btn btn-primary btn-block btn-lg" type="button" value="SignUp" />
+                                <input id="button2" class="btn btn-success btn-block btn-lg" type="button" value="SignUp" />
                                       </div>
                             </div>
                         </div>
