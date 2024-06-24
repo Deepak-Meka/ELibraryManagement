@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AdminLogin.aspx" />
+    <Content Include="AuthorManagement.aspx" />
     <Content Include="BootStrap\css\bootstrap.min.css" />
     <Content Include="BootStrap\js\bootstrap.min.js" />
     <Content Include="BootStrap\js\jquery-3.3.1.slim.min.js" />
@@ -2172,6 +2173,7 @@
     <Content Include="images\search-online.png" />
     <Content Include="images\sign-up.png" />
     <Content Include="images\writer.png" />
+    <Content Include="PublisherManagement.aspx" />
     <Content Include="RegistrationPage.aspx" />
     <Content Include="UserLogin.aspx" />
     <Content Include="UserProfile.aspx" />
@@ -2186,6 +2188,13 @@
     <Compile Include="AdminLogin.aspx.designer.cs">
       <DependentUpon>AdminLogin.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AuthorManagement.aspx.cs">
+      <DependentUpon>AuthorManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AuthorManagement.aspx.designer.cs">
+      <DependentUpon>AuthorManagement.aspx</DependentUpon>
+    </Compile>
     <Compile Include="homepage.aspx.cs">
       <DependentUpon>homepage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2194,6 +2203,13 @@
       <DependentUpon>homepage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PublisherManagement.aspx.cs">
+      <DependentUpon>PublisherManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PublisherManagement.aspx.designer.cs">
+      <DependentUpon>PublisherManagement.aspx</DependentUpon>
+    </Compile>
     <Compile Include="RegistrationPage.aspx.cs">
       <DependentUpon>RegistrationPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
