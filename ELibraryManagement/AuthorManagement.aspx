@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
             <div class="col-md-5 ">
                 <div class="card">
@@ -19,11 +19,12 @@
                                 <center>
                                     <img width="100px" src="images/writer.png" />      
                                 </center>
+                                <hr />
                             </div>
                         </div>
    
                         <div class="row">
-                            <div class="col-md-3">
+                            <div class="col-md-4">
                                 <label>Author ID</label>
                                 <div class="form-group">
                                     <div class="input-group">
@@ -35,7 +36,7 @@
                                     </div>
                                 </div>
                           
-                            <div class="col-md-9">
+                            <div class="col-md-8">
                                 <label>Author Name</label>
                                 <div class="form-group">
                                 <center>
@@ -92,6 +93,7 @@
                                     <img width="100px" src="images/writer.png" />
                                     
                                 </center>
+                                 <hr />
                             </div>
                         </div>
                         

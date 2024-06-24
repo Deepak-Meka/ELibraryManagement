@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-     <div class="container-fluid">
+     <div class="container">
         <div class="row">
             <div class="col-md-5 ">
                 <div class="card">
@@ -17,18 +17,17 @@
                         <div class="row">
                             <div class="col">
                                 <center>
-                                    <img width="100px" src="images/publisher.png" />
-                                     
+                                    <img width="100px" src="images/publisher.png" />    
                                 </center>
+                                 <hr />
                             </div>
                         </div>
    
                         <div class="row">
-                            <div class="col-md-3">
+                            <div class="col-md-4">
                                 <label>Publisher ID</label>
                                 <div class="form-group">
                                     <div class="input-group">
-                              
                                     <asp:TextBox class="form-control" ID="TextBox1" runat="server" placeholder="ID"></asp:TextBox>
                                     <asp:Button class="btn btn-primary" ID="Button1" runat="server" Text="GO" />
                              
@@ -36,7 +35,7 @@
                                     </div>
                                 </div>
                           
-                            <div class="col-md-9">
+                            <div class="col-md-8">
                                 <label>Publisher Name</label>
                                 <div class="form-group">
                                 <center>
@@ -91,8 +90,8 @@
                             <div class="col">
                                 <center>
                                     <img width="100px" src="images/publisher.png" />
-                                    
                                 </center>
+                                 <hr />
                             </div>
                         </div>
                         
