@@ -42,8 +42,9 @@
                 </center>
                 </div>
             </div>
+            </div>
     </section>
-
+  
     <section>
         <img src="images/in-homepage-banner.jpg" class="img-fluid"/>
     </section>
