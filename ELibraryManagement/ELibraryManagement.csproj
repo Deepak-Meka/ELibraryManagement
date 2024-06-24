@@ -2174,6 +2174,7 @@
     <Content Include="images\sign-up.png" />
     <Content Include="images\writer.png" />
     <Content Include="IssueBook.aspx" />
+    <Content Include="MemberManagement.aspx" />
     <Content Include="PublisherManagement.aspx" />
     <Content Include="RegistrationPage.aspx" />
     <Content Include="UserLogin.aspx" />
@@ -2209,6 +2210,13 @@
     </Compile>
     <Compile Include="IssueBook.aspx.designer.cs">
       <DependentUpon>IssueBook.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberManagement.aspx.cs">
+      <DependentUpon>MemberManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberManagement.aspx.designer.cs">
+      <DependentUpon>MemberManagement.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PublisherManagement.aspx.cs">
