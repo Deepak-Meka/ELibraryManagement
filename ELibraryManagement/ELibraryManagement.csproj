@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="AdminLogin.aspx" />
     <Content Include="AuthorManagement.aspx" />
+    <Content Include="BookInventory.aspx" />
     <Content Include="BootStrap\css\bootstrap.min.css" />
     <Content Include="BootStrap\js\bootstrap.min.js" />
     <Content Include="BootStrap\js\jquery-3.3.1.slim.min.js" />
@@ -2179,6 +2180,7 @@
     <Content Include="RegistrationPage.aspx" />
     <Content Include="UserLogin.aspx" />
     <Content Include="UserProfile.aspx" />
+    <Content Include="ViewBooks.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
@@ -2196,6 +2198,13 @@
     </Compile>
     <Compile Include="AuthorManagement.aspx.designer.cs">
       <DependentUpon>AuthorManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BookInventory.aspx.cs">
+      <DependentUpon>BookInventory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BookInventory.aspx.designer.cs">
+      <DependentUpon>BookInventory.aspx</DependentUpon>
     </Compile>
     <Compile Include="homepage.aspx.cs">
       <DependentUpon>homepage.aspx</DependentUpon>
@@ -2253,6 +2262,13 @@
     </Compile>
     <Compile Include="UserProfile.aspx.designer.cs">
       <DependentUpon>UserProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewBooks.aspx.cs">
+      <DependentUpon>ViewBooks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewBooks.aspx.designer.cs">
+      <DependentUpon>ViewBooks.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
