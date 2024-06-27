@@ -2,6 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-6 mx-auto">
@@ -28,6 +29,7 @@
                                 <div class="form-group">
                                 <center>
                                     <asp:TextBox class="form-control" ID="TextBox1" runat="server" placeholder="Full Name"></asp:TextBox>
+                                    <span id="Fullname"> </span>
                                 </center>
                                  </div>
                                 </div>
@@ -161,7 +163,7 @@
 
                                   <div class="form-group"> 
                                 <div class="form-group">
-                                <input id="button2" class="btn btn-success btn-block btn-lg" type="button" value="SignUp" />
+                                    <asp:Button ID="Button1" class="btn btn-success btn-block btn-lg" runat="server" Text="Sign Up" OnClick="Button1_Click" />
                                       </div>
                             </div>
                         </div>

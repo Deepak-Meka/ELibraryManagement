@@ -2178,6 +2178,7 @@
     <Content Include="MemberManagement.aspx" />
     <Content Include="PublisherManagement.aspx" />
     <Content Include="RegistrationPage.aspx" />
+    <Content Include="RegistrationValidation.js" />
     <Content Include="UserLogin.aspx" />
     <Content Include="UserProfile.aspx" />
     <Content Include="ViewBooks.aspx" />
