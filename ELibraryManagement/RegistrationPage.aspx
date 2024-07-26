@@ -1,5 +1,30 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="RegistrationPage.aspx.cs" Inherits="ELibraryManagement.RegistrationPage" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <%--<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <style>
+        .error {
+            color: red;
+        }
+    </style>
+    
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#Button1").click(function (event) {
+                var isValid = true;
+                if ($("#<%= TextBox1.ClientID %>").val().trim() === "") {
+                    $("#TextBox1Error").text("Please enter a value").addClass("error");
+                    isValid = false;
+                } else {
+                    $("#TextBox1Error").text("");
+                }
+                if (!isValid) {
+                    event.preventDefault(); // Prevent form submission if validation fails
+                }
+            });
+        });
+    </script>--%>
+
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
@@ -29,7 +54,7 @@
                                 <div class="form-group">
                                 <center>
                                     <asp:TextBox class="form-control" ID="TextBox1" runat="server" placeholder="Full Name"></asp:TextBox>
-                                    <span id="Fullname"> </span>
+                                    <span id="TextBox1Error" class="error"></span>
                                 </center>
                                  </div>
                                 </div>
@@ -50,6 +75,7 @@
                                 <div class="form-group">
                                 <center>
                                     <asp:TextBox class="form-control" ID="TextBox3" runat="server" placeholder="Contact" TextMode="Number"></asp:TextBox>
+                                    
                                 </center>
                                  </div>
                                 </div>
@@ -58,6 +84,7 @@
                                 <div class="form-group">
                                 <center>
                                     <asp:TextBox class="form-control" ID="TextBox4" runat="server" placeholder="Email" TextMode="Email"></asp:TextBox>
+                                    <span id="TextBox4Error" class="error"></span>
                                 </center>
                                  </div>
                                 </div>
@@ -109,6 +136,7 @@
                                 <div class="form-group">
                                 <center>
                                     <asp:TextBox class="form-control" ID="TextBox6" runat="server" placeholder="city"></asp:TextBox>
+                                    <span id="TextBox6Error" class="error"></span>
                                 </center>
                                  </div>
                                 </div>
@@ -128,7 +156,7 @@
                                 <div class="form-group">
                             
                                     <asp:TextBox CssClass="form-control" ID="TextBox7" runat="server" placeholder="Full Address" TextMode="MultiLine" Rows="2"></asp:TextBox>
-                             
+                             <span id="TextBox7Error" class="error"></span>
                                  </div>
                                 </div>
                             </div>
@@ -147,6 +175,7 @@
                                 <div class="form-group">
                                 <center>
                                     <asp:TextBox class="form-control" ID="TextBox8" runat="server" placeholder="User Id"></asp:TextBox>
+                                    <span id="TextBox8Error" class="error"></span>
                                 </center>
                                  </div>
                                 </div>
@@ -156,6 +185,7 @@
                                 <div class="form-group">
                                 <center>
                                     <asp:TextBox class="form-control" ID="TextBox9" runat="server" placeholder="Password" Textmode="Password"></asp:TextBox>
+                                    <span id="TextBox9Error" class="error"></span>
                                 </center>
                                  </div>
                                 </div>

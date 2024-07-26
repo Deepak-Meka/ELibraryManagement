@@ -34,7 +34,7 @@ namespace ELibraryManagement
                     LinkButton2.Visible = false; //signup button
                     LinkButton3.Visible = true;//Logout button
                     LinkButton7.Visible = true;//hello user button
-                    LinkButton7.Text = "Hello" + Session["username"].ToString();
+                    LinkButton7.Text = "Hello " +Session["username"].ToString();
 
                     LinkButton6.Visible = true; //Admin Login Button
                     LinkButton11.Visible = false;//AuthorManagement Button
@@ -114,6 +114,11 @@ namespace ELibraryManagement
         {
             Session.Clear();
             Response.Redirect("homepage.aspx");
+        }
+
+        protected void LinkButton7_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("UserProfile.aspx");
         }
     }
 }
